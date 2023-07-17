@@ -10,8 +10,11 @@ public class Digitnumber {
             System.out.println("Number Is One Digit Number");
         }
         else if(x>=10 && x<=99){
-            System.out.println("Number Is 2 Digit number");
+            System.out.println("Number Is 2 Digit number");}
+
         else if(x>=100 && x<=999){
+
+
             System.out.println("Number Is 3 Digit Number");
         }
         else if(x>=1000 && x<=999){

@@ -3,25 +3,26 @@ import java.util.Scanner;
 
 public class Largestnumber {
     public static void main(String[] args){
-        int x;
-        int y;
-        int z;
+        int num1;
+        int num2;
+        int num3;
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter value of x");
-        x=sc.nextInt();
-        System.out.print("Enter value of y");
+       // num1=sc.nextInt();
+        System.out.print("Enter value of num1");
+        num1=sc.nextInt();
+        System.out.println("Enter  Value of num2");
 
-        y=sc.nextInt();
-        System.out.println("Enter value of z");
-        z=sc.nextInt();
-        if(x>y && x>z){
-            System.out.print("x is largest:" +x);
+        num2=sc.nextInt();
+        System.out.println("Enter value of num3");
+        num3=sc.nextInt();
+        if(num1>num2 && num1>num3){
+            System.out.print("x is largest:" +num1);
         }
-        else if( x<y && x>z){
-            System.out.print("y is greater :" +y);
+        else if( num1<num2 && num1>num3){
+            System.out.print("y is greater :" +num2);
         }
         else{
-            System.out.print("z is greater: "  +z);
+            System.out.print("z is greater: "  +num3);
         }
     }
 }
