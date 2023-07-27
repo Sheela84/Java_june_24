@@ -13,10 +13,6 @@ public class MainOverloaded {
         int age=sc.nextInt();
         Overloaded.enterInformation(age);
 
-        System.out.println("Total number of employee are :"  );
-                int employee=sc.nextInt();
-        Overloaded.enterInformation(employee);
-
 
 
 

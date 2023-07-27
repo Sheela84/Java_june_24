@@ -12,6 +12,7 @@ public class CalculatorMethod {
        String choice;
         do {
 
+
             System.out.println("Enter the Value");
             Scanner sc = new Scanner(System.in);
             int num1 = sc.nextInt();
@@ -41,11 +42,11 @@ public class CalculatorMethod {
             }
             System.out.println("Do you want to continue if yes press Y or  any other key to exit");
 
-            choice = sc.next();
-        }
+             choice = sc.next();
 
 
-        while (choice!= "Y");
+        } while (choice != "Y") ;
+
 
     }
 
@@ -56,12 +57,12 @@ public class CalculatorMethod {
 
     public static void sub(int num1, int num2) {
 
-        System.out.println(num1 + num2);
+        System.out.println(num1 - num2);
     }
 
     public static void multi(int num1, int num2) {
 
-        System.out.println(num1+num2);
+        System.out.println(num1*num2);
 
     }
 

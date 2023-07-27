@@ -1,12 +1,14 @@
 package July18;
 import java.util.Scanner;
 
-public class CalculareArea(){
-   static  double PI = 3.14;
-    double r;
+public class CalculateArea {
+    static double PI = 3.14;
 
 
-    public void area() {
+
+    public static void  area() {
+        double r;
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of Radious");
         r = sc.nextDouble();
@@ -20,5 +22,7 @@ public class CalculareArea(){
     public static void main(String[] args) {
 
         area();
+
     }
+
 }
